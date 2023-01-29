@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col{
+    
+    margin: 5%;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
