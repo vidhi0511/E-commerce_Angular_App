@@ -41,7 +41,7 @@
     font-size: 1.8rem;
     font-weight: 300;
     font-family: 'COUTUREBold';
-    color: antiquewhite;
+    
     background-color: black;
     border-color: bisque;
     border-radius: 32px;
@@ -49,4 +49,14 @@
     float: right;
     margin-right: 24%;
     padding: 3%;
+    
+}
+.text a{
+    text-decoration: none;
+    color: antiquewhite;
+    width: 50%;
+}
+.text button:hover{
+    background: linear-gradient(to top,black,#e29457);
+    font-weight: bold;
 }

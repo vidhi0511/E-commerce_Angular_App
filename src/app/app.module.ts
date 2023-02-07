@@ -11,6 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatCardModule} from '@angular/material/card';
+import { FooterComponent } from './footer/footer.component';
+import{HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -19,14 +21,17 @@ import {MatCardModule} from '@angular/material/card';
     HomeComponent,
     ProductsComponent,
     LoginComponent,
-    CartComponent
+    CartComponent,
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NgbModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
