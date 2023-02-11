@@ -7,10 +7,12 @@ import {map} from 'rxjs/operators'
 export class ApiService {
 
   constructor(private http : HttpClient) { }
-  getProduct(){
-    this.http.get<any>("https://fakestoreapi.com/products")
-    .pipe(map((res:any)=>{
-      return res;
-    }))
+  getProduct():any{
+    let url="https://5d76bf96515d1a0014085cf9.mockapi.io/product"
+    console.log(url)
+    return this.http.get(url);
+    // .pipe(map((res:any)=>{
+    //   return res;
+    // }))
   }
 }

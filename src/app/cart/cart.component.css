@@ -2,8 +2,11 @@
     height: 60vh;
     margin: 25px;
     padding: 25px;
+    
 }
-
+.container{
+    margin-top: 150px;
+}
 .center img {
     text-decoration: none;
     color: inherit;
@@ -38,10 +41,22 @@ h4,h6 {
     border-radius: .25rem;
 }
 
-.center .btn {
-    font-size: 14px !important;
-    margin-top: 20px !important;
+.center button {
+    /* font-size: 14px !important; */
+    margin-top: 40px !important;
     font-weight: 400;
-    padding: 12px 72px;
+    padding: 10px 70px;
     border-radius: 3px !important;
+    font-size: 1.8rem;
+    font-family: 'COUTUREBold';
+    border-color: bisque;
+    background-color: black;
+    border-radius: 32px;
+
+}
+.center button:hover{
+    background: linear-gradient(to top,black,#e29457);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }

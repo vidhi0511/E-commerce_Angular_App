@@ -59,4 +59,6 @@
 .text button:hover{
     background: linear-gradient(to top,black,#e29457);
     font-weight: bold;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }

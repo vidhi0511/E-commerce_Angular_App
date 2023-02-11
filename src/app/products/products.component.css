@@ -1,13 +1,22 @@
-.card-top{
+.page{
+    height: max-content;
+    margin:0;
+    padding:0;
+    
+}
+
+/* .card-top{
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: antiquewhite;
+    margin-top: 9%;
     background-clip: border-box;
-    border: 1px solid black;
-    border-radius: 0.25rem;
+    margin-top: 4.5%;
+}
+.card-top h6{
+    color: antiquewhite;
 }
 .item img {
     width: 64px;
@@ -16,11 +25,11 @@
 .item {
     margin: 0px 15px;
     text-align: center;
-}
+} */
 
-.item a:hover {
-    color: blue;
-}
+/* .item a:hover {
+    color: brown;
+} */
 
 .card {
     padding: 20px;
