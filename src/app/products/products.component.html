@@ -35,13 +35,13 @@
             <!-- //for looping through all the data which we are getting through api  -->
             <ng-container *ngFor="let item of productList">
                 <div class="card col-md-3">
-                    <img src="{{item.image}}" alt="">
+                    <img src="{{item.preview}}" alt="">
                     <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
                         {{item.title}}</h5>
                     <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
                         {{item.description}}</p>
                     <p><strong>Price:</strong> ${{item.price}}</p>
-                    <button class="btn btn-primary" (click)=addtocart(item) style="background: black;">Add to cart</button>
+                    <button class="b" (click)=addtocart(item) style="background: black;"><span>Add to Cart</span></button>
                 </div>
             </ng-container>
 

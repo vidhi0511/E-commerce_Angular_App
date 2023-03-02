@@ -1,4 +1,4 @@
-header{
+header {
     width: 100vw;
     background: black;
     height: 8%;
@@ -12,20 +12,24 @@ header{
     top: 0%;
     z-index: 1000;
 }
-header h1{
+
+header h1 {
     color: aliceblue;
 }
-header ul{
+
+header ul {
     list-style-type: none;
     display: inline-flex;
 }
-header li{
+
+header li {
     padding-top: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    
+
 }
-header li a{
+
+header li a {
     color: white;
     text-decoration: none;
     font-size: 1.3rem;
@@ -34,15 +38,14 @@ header li a{
     font-weight: bold;
     display: inline-block;
     margin-left: 10px;
-    
+
 }
 
-  
+
 
 header ul li a:hover {
     border-bottom: 2px solid #c5793f;
-    font-size: 1.5rem;
-    padding-top: 5px;
-    
-  }
 
+    padding-top: 5px;
+
+}

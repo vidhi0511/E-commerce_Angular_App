@@ -7,7 +7,6 @@
 }
 
 .background-img h1{
-    
     color: #ffff;
     font-size: 3.8rem;
     padding-top: 35%;
@@ -41,14 +40,13 @@
     font-size: 1.8rem;
     font-weight: 300;
     font-family: 'COUTUREBold';
-    
     background-color: black;
     border-color: bisque;
     border-radius: 32px;
     margin-top: 4%;
     float: right;
     margin-right: 24%;
-    padding: 3%;
+    padding: 2%;
     
 }
 .text a{
@@ -58,7 +56,7 @@
 }
 .text button:hover{
     background: linear-gradient(to top,black,#e29457);
-    font-weight: bold;
+    
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
 }

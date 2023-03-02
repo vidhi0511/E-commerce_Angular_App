@@ -14,11 +14,11 @@ export class CartService {
     return this.productList.asObservable();
   }
   getTotalPrice() : number{
-    let grandtotal =0;
+    let grandTotal =0;
     this.cartItemList.map((a:any)=>{
-      grandtotal += a.total;
+      grandTotal += a.total;
     })
-    return grandtotal;
+    return grandTotal;
   }
   addtoCart(product:any){
     this.cartItemList.push(product);
