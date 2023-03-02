@@ -1,25 +1,39 @@
 .background-img{
-    background-image: url('../../assets/bg2.webp');
+    /* background-image: url('../../assets/bg2.webp');
     background-size: contain;
-    background-repeat: no-repeat;
-    width: 2000px;
-    height: 1130px;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.335);
 }
+#myVideo {
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 
+  }
 .background-img h1{
     color: #ffff;
     font-size: 3.8rem;
-    padding-top: 35%;
+    padding-top: 40%;
     font-weight: 900;
     text-align: center;
     font-family: fantasy;
 }
     
 .background-img .text{
-    align-items: right;
-    position: -webkit-sticky;
-    float: right;
-    padding-right: 20%;
+    align-items: center;
+    position: fixed;
+    padding-right: 10%;
+    text-align: center;
+    left: 30%;
+    text-shadow: 2px 4px 5px black;
 }
 
 .background-img p{
@@ -47,6 +61,7 @@
     float: right;
     margin-right: 24%;
     padding: 2%;
+    box-shadow: 4px 5px 5px black;
     
 }
 .text a{
