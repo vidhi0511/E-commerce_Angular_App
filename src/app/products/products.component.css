@@ -2,6 +2,7 @@
     height: max-content;
     margin:0;
     padding:0;
+    background: linear-gradient(to bottom left,#714623, black);
     
 }
 
@@ -34,6 +35,9 @@
 .card {
     padding: 20px;
     margin: 50px;
+    /* background-color:rgb(236, 206, 169); */
+    border-color: rgb(248, 246, 244);
+    box-shadow: 14px 15px 16px rgba(0, 0, 0, 0.629);
 }
 
 .card img {
@@ -46,17 +50,20 @@
 .card img:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
+    box-shadow: 14px 15px 16px rgb(0, 0, 0,0.5);
 }
 .card .b{
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.08);
     transition: box-shadow 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
+    border-color: bisque;
     padding: 2%;
 }
 .card .b:hover {
-    box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 14px 15px 16px rgb(0, 0, 0,0.5);
+    
     transition: 0.3 ease-in-out;
   }
 .card .b span{
-    color: aliceblue;
+    color: white;
 }

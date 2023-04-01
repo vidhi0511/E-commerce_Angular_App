@@ -6,25 +6,33 @@
     height: 100vh; 
     background-color: rgba(0, 0, 0, 0.335);
 }
+.text{
+    position: relative;
+    max-width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
 #myVideo {
     width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 
   }
 .background-img h1{
     color: #ffff;
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     padding-top: 40%;
-    font-weight: 900;
+    font-weight: 500;
     text-align: center;
-    font-family: fantasy;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
     
 .background-img .text{
@@ -37,7 +45,7 @@
 }
 
 .background-img p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     width: 100%;
     justify-content: center;
@@ -46,12 +54,12 @@
     align-items: center;
     text-align: center;
     font-family: 'COUTUREBold';
-    font-weight: 500rem;
+    font-weight: 300rem;
     letter-spacing: 1px;
 }
 .text button{
     width: 50%;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 300;
     font-family: 'COUTUREBold';
     background-color: black;
@@ -59,19 +67,18 @@
     border-radius: 32px;
     margin-top: 4%;
     float: right;
-    margin-right: 24%;
     padding: 2%;
     box-shadow: 4px 5px 5px black;
     
 }
 .text a{
     text-decoration: none;
-    color: antiquewhite;
-    width: 50%;
+    color: white;
+    width: 40%;
+    
 }
 .text button:hover{
     background: linear-gradient(to top,black,#e29457);
-    
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
 }

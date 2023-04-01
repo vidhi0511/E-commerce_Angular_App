@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    color: aliceblue;
+    color: white;
 }
 
 header ul {
@@ -33,9 +33,8 @@ header li a {
     color: white;
     text-decoration: none;
     font-size: 1.3rem;
-    padding-top: 5px;
-    font-family: "COUTUREBold";
-    font-weight: bold;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
     margin-left: 10px;
 
@@ -46,4 +45,12 @@ header ul li a:hover {
 
     padding-top: 5px;
 
+}
+
+i span{
+    font-size: 1.6rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.icon{
+    padding-top: 5px;
 }

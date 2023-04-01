@@ -13,6 +13,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatCardModule} from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 import{HttpClientModule} from '@angular/common/http'
+import { GooglePayButtonModule } from '@google-pay/button-angular';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import{HttpClientModule} from '@angular/common/http'
     BrowserAnimationsModule,
     NgbModule,
     MatCardModule,
-    HttpClientModule
+    HttpClientModule,
+    GooglePayButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
